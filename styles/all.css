@@ -21,50 +21,95 @@ a {
 }
 
 /* Navbar styling */
-
-#navbar-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--main-accent-color);
-    background-color: rgb(220, 220, 220);
+/* Desktop Styling */
+@media screen and (min-width: 800px) {
+    #navbar-main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--main-accent-color);
+        background-color: rgb(220, 220, 220);
+    }
+    
+    #navbar-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    #navbar-contacts i {
+        margin: 30px;
+        font-size: 1.2em;
+    }
+    
+    #navbar-contacts i:hover {
+        color: rgb(50, 50, 125);
+    }
+    
+    #navbar-title {
+        margin-right: 50px;
+    }
+    
+    #navbar-menu a {
+        margin: 20px;
+        font-size: 1.1em;
+    }
+    
+    #navbar-menu a:hover {
+        font-weight: 700;
+    }
+    
+    #navbar-main h2 {
+        font-weight: 600;
+    }
+    
+    .navbar-item {
+        color: var(--main-accent-color);
+    }
 }
 
-#navbar-left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
+/* Mobile Styling */
+@media screen and (max-width: 800px) {
+    #navbar-main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--main-accent-color);
+        background-color: rgb(220, 220, 220);
+    }
+
+    #navbar-contacts i {
+        margin: 30px;
+        font-size: 1.2em;
+    }
+    
+    #navbar-contacts i:hover {
+        color: rgb(50, 50, 125);
+    }
+    
+    #navbar-title {
+        margin-right: 50px;
+    }
+
+    #navbar-menu a {
+        display: none;
+    }
+
+    #navbar-left {
+        margin-left: 10px;
+    }
+
+    #navbar-main h2 {
+        font-weight: 600;
+    }
+    
+    .navbar-item {
+        color: var(--main-accent-color);
+    }
 }
 
-#navbar-contacts i {
-    margin: 30px;
-    font-size: 1.2em;
-}
 
-#navbar-contacts i:hover {
-    color: rgb(50, 50, 125);
-}
-
-#navbar-title {
-    margin-right: 50px;
-}
-
-#navbar-menu a {
-    margin: 20px;
-    font-size: 1.1em;
-}
-
-#navbar-menu a:hover {
-    font-weight: 700;
-}
-
-#navbar-main h2 {
-    font-weight: 600;
-}
-
-.navbar-item {
-    color: var(--main-accent-color);
-}
 

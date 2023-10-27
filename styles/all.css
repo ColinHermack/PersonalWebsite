@@ -40,6 +40,11 @@ a {
 
 #navbar-contacts i {
     margin: 30px;
+    font-size: 1.2em;
+}
+
+#navbar-contacts i:hover {
+    color: rgb(50, 50, 125);
 }
 
 #navbar-title {
@@ -48,6 +53,15 @@ a {
 
 #navbar-menu a {
     margin: 20px;
+    font-size: 1.1em;
+}
+
+#navbar-menu a:hover {
+    font-weight: 700;
+}
+
+#navbar-main h2 {
+    font-weight: 600;
 }
 
 .navbar-item {

@@ -2,6 +2,8 @@
 
 :root {
     --main-accent-color: rgb(0, 0, 125);
+    --main-background-color: white;
+    --nav-background-color: rgb(220, 220, 220);
 }
 
 * {
@@ -29,7 +31,7 @@ a {
         align-items: center;
         justify-content: space-between;
         color: var(--main-accent-color);
-        background-color: rgb(220, 220, 220);
+        background-color: var(--nav-background-color);
     }
     
     #navbar-left {
@@ -81,17 +83,20 @@ a {
         background-color: rgb(220, 220, 220);
     }
 
+    #navbar-contacts {
+        max-width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     #navbar-contacts i {
-        margin: 30px;
         font-size: 1.2em;
     }
     
     #navbar-contacts i:hover {
         color: rgb(50, 50, 125);
-    }
-    
-    #navbar-title {
-        margin-right: 50px;
     }
 
     #navbar-menu a {
@@ -111,5 +116,21 @@ a {
     }
 }
 
+/*Main Page Styling */
+main {
+    min-height: 80vh;
+}
+
+/*Footer Styling */
+footer {
+    background-color: var(--main-accent-color);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--nav-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 

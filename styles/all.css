@@ -39,6 +39,11 @@ a {
         flex-direction: row;
         align-items: center;
         margin-left: 10px;
+        width: 65%;
+    }
+
+    #navbar-title {
+        text-align: center;
     }
     
     #navbar-contacts i {
@@ -54,6 +59,17 @@ a {
         margin-right: 50px;
     }
     
+    #navbar-menu {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .navbar-link-container {
+        width: 30%;
+    }
+
     #navbar-menu a {
         margin: 20px;
         font-size: 1.1em;
@@ -117,6 +133,11 @@ a {
 
     .navbar-item:hover {
         font-weight: bold;
+    }
+
+    .navbar-link-container {
+        width: 33%;
+        text-align: center;
     }
 }
 

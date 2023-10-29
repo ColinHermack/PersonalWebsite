@@ -74,6 +74,10 @@ a {
 
 /* Mobile Styling */
 @media screen and (max-width: 800px) {
+    nav {
+        padding-bottom: 25px;
+    }
+
     #navbar-main {
         display: flex;
         flex-direction: row;
@@ -88,11 +92,19 @@ a {
     }
 
     #navbar-left {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 15px;
+    }
+
+    #navbar-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 15px;
     }
 
     #navbar-main h2 {
@@ -101,6 +113,10 @@ a {
     
     .navbar-item {
         color: var(--main-accent-color);
+    }
+
+    .navbar-item:hover {
+        font-weight: bold;
     }
 }
 

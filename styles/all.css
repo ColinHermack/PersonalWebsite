@@ -16,6 +16,7 @@ body {
     margin: 0;
     border: none;
     padding: 0;
+    color: var(--main-accent-color);
 }
 
 a {

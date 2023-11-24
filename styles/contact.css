@@ -16,7 +16,7 @@ h2 {
     justify-content: space-evenly;
 }
 
-a:hover {
+.profile-icon:hover {
     color: rgb(0, 0, 225);
 }
 

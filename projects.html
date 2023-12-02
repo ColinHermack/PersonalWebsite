@@ -8,7 +8,7 @@
             content="Colin Hermack's Personal Website Projects Page"
         />
         <title>Projects - Colin Hermack</title>
-        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/projects.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="styles/all.css"/>
         <link rel="icon" type="images/x-icon" href="/media/headshot.ico">
@@ -30,9 +30,36 @@
                     <a class="navbar-item" target="_blank" href="https://github.com/ColinHermack"><i class="fa fa-github"></i></a>
                 </div>
             </div>
-            
-            
         </nav>
+        <main>
+            <div class="project-info" id="tierlist-maker">
+                <h2>Purdue Tier List Maker</h2>
+                <p>An interactive tier list maker web app coded in HTML, CSS, and vanilla JavaScript.</p>
+                <div class="languages-box">
+                    <div class="language">HTML</div>
+                    <div class="language">CSS</div>
+                    <div class="language">JavaScript</div>
+                </div>
+                <div class="links-box">
+                    <a target="_blank" href="https://github.com/ColinHermack/Purdue-Buildings-Tier-List"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://colinhermack.me/Purdue-Buildings-Tier-List/"><i class="fa fa-laptop"></i></a>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <div class="project-info" id="personal-website">
+                <h2>Personal Website</h2>
+                <p>My personal website which showcases my resume and projects.</p>
+                <div class="languages-box">
+                    <div class="language">HTML</div>
+                    <div class="language">CSS</div>
+                </div>
+                <div class="links-box">
+                    <a target="_blank" href="https://github.com/ColinHermack/colinhermack.github.io"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://colinhermack.me"><i class="fa fa-laptop"></i></a>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </main>
         <footer>
             <div id="footer-learn-more">
                 <a class="footer-contact-item" href=mailto:"colinhermack@gmail.com"><i class="fa fa-envelope"></i></a>
@@ -41,6 +68,18 @@
             </div>
             <p>Created in 2023 by Colin Hermack</p>
         </footer>
+        <script>
+            const languageDivs = document.getElementsByClassName("language");
+            for (let i = 0; i < languageDivs.length; i++) {
+                if (languageDivs[i].textContent === "HTML") {
+                    languageDivs[i].style.color = "rgb(255, 50, 50)";
+                } else if (languageDivs[i].textContent === "CSS") {
+                    languageDivs[i].style.color = "rgb(120, 50, 255)";
+                } else if (languageDivs[i].textContent === "JavaScript") {
+                    languageDivs[i].style.color = "rgb(150, 150, 30)";
+                }
+            }
+        </script>
     </body>
     
 </html>

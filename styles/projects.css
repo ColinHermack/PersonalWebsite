@@ -10,16 +10,19 @@ main {
     margin: auto;
 }
 
-h2 {
+main h2 {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 p {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .languages-box {
     margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
 }
@@ -31,6 +34,7 @@ p {
 .links-box {
     margin-top: 20px;
     margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;

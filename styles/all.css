@@ -54,7 +54,7 @@ a {
     }
     
     #navbar-contacts i:hover {
-        color: rgb(50, 50, 125);
+        color: rgb(75, 75, 255);
     }
     
     #navbar-title {
@@ -78,7 +78,7 @@ a {
     }
     
     #navbar-menu a:hover {
-        font-weight: 700;
+        color: rgb(75, 75, 255);
     }
     
     #navbar-main h2 {
@@ -134,7 +134,7 @@ a {
     }
 
     .navbar-item:hover {
-        font-weight: bold;
+        color: rgb(75, 75, 255);
     }
 
     .navbar-link-container {

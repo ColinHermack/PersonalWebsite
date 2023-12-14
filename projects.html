@@ -32,6 +32,16 @@
             </div>
         </nav>
         <main>
+            <div class="project-info" id="CS180-project5">
+                <h2>CS180 Capstone Project</h2>
+                <p>Built a database driver and concurrent server using Java for a virtual marketplace application. Used SQLite3 and the java SQL library to 
+                    build and interact with the database. Final product received a perfect score.</p>
+                <div class="languages-box">
+                    <div class="language">Java</div>
+                    <div class="language">SQLite</div>
+                </div>
+                <div class="divider"></div>
+            </div>
             <div class="project-info" id="tierlist-maker">
                 <h2>Purdue Tier List Maker</h2>
                 <p>An interactive tier list maker web app coded in HTML, CSS, and vanilla JavaScript.</p>
@@ -77,6 +87,10 @@
                     languageDivs[i].style.color = "rgb(120, 50, 255)";
                 } else if (languageDivs[i].textContent === "JavaScript") {
                     languageDivs[i].style.color = "rgb(150, 150, 30)";
+                } else if (languageDivs[i].textContent === "Java") {
+                    languageDivs[i].style.color = "rgb(180, 10, 10)"
+                } else if (languageDivs[i].textContent === "SQLite") {
+                    languageDivs[i].style.color = "rgb(10, 180, 10)"
                 }
             }
         </script>

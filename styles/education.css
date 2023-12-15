@@ -13,3 +13,41 @@ h2 {
     width: 100%;
     text-align: center;
 }
+
+.course-container {
+    width: 70vw;
+}
+
+.course-header {
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid var(--main-accent-color);
+}
+
+.course-title {
+    width: 93%;
+    text-align: center;
+}
+
+.course-header button {
+    background-color: white;
+    border: none;
+    font-size: 2em;
+    width: 7%;
+}
+
+.course-header button:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.course-description {
+    display: none;
+    border-left: 1.5px solid var(--main-accent-color);
+    border-bottom: 1.5px solid var(--main-accent-color);
+    border-right: 1.5px solid var(--main-accent-color);
+    padding: 10px;
+}
+
+.style {
+    display: block;
+}

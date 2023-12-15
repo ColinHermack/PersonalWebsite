@@ -57,6 +57,19 @@
         background-color: var(--main-accent-color);
         color: white;
     }
+
+    .tech-logo {
+        height: 100%;
+    }
+
+    #tech-stack {
+        height: 40px;
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 70px 0 70px 0;
+    }
 }
 
 /* Mobile Styling */
@@ -131,5 +144,9 @@
     .learn-more-button:hover {
         background-color: var(--main-accent-color);
         color: white;
+    }
+
+    #tech-stack {
+        display: none;
     }
 }

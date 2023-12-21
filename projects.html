@@ -32,6 +32,23 @@
             </div>
         </nav>
         <main>
+            <div class="project-info" id="weather-app">
+                <h2>Weather Web Application</h2>
+                <p>A ReactJS application which uses the National Weather Service API and browser geolocation to deliver
+                    real-time and location-specific weather data.
+                </p>
+                <div class="languages-box">
+                    <div class="language">HTML</div>
+                    <div class="language">CSS</div>
+                    <div class="language">JavaScript</div>
+                    <div class="language">ReactJS</div>
+                </div>
+                <div class="links-box">
+                    <a target="_blank" href="https://github.com/ColinHermack/WeatherApp"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://colin-weather-app.netlify.app"><i class="fa fa-laptop"></i></a>
+                </div>
+                <div class="divider"></div>
+            </div>
             <div class="project-info" id="CS180-project5">
                 <h2>CS180 Capstone Project</h2>
                 <p>Built a database driver and concurrent server using Java for a virtual marketplace application. Used SQLite3 and the java SQL library to 
@@ -68,7 +85,6 @@
                     <a target="_blank" href="https://github.com/ColinHermack/colinhermack.github.io"><i class="fa fa-github"></i></a>
                     <a target="_blank" href="https://colinhermack.me"><i class="fa fa-laptop"></i></a>
                 </div>
-                <div class="divider"></div>
             </div>
         </main>
         <footer>
@@ -92,6 +108,8 @@
                     languageDivs[i].style.color = "rgb(180, 10, 10)"
                 } else if (languageDivs[i].textContent === "SQLite") {
                     languageDivs[i].style.color = "rgb(10, 180, 10)"
+                } else if (languageDivs[i].textContent === "ReactJS") {
+                    languageDivs[i].style.color = "rgb(180, 180, 180)";
                 }
             }
         </script>

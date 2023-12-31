@@ -32,6 +32,23 @@
             </div>
         </nav>
         <main>
+            <div class="project-info" id="twitter-clone">
+                <h2>Twitter Clone</h2>
+                <p>An ongoing full-stack web development project with the goal of recreating the functionality of Twitter/X.</p>
+                <div class="languages-box">
+                    <div class="language">JavaScript</div>
+                    <div class="language">HTML</div>
+                    <div class="language">CSS</div>
+                    <div class="language">SQLite</div>
+                    <div class="language">ReactJS</div>
+                    <div class="language">NodeJS</div>
+                    <div class="language">Express</div>
+                </div>
+                <div class="links-box">
+                    <a target="_blank" href="https://github.com/ColinHermack/Twitter-Clone"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+            <div class="divider"></div>
             <div class="project-info" id="weather-app">
                 <h2>Weather Web Application</h2>
                 <p>A ReactJS application which uses the National Weather Service API and browser geolocation to deliver
@@ -47,8 +64,8 @@
                     <a target="_blank" href="https://github.com/ColinHermack/WeatherApp"><i class="fa fa-github"></i></a>
                     <a target="_blank" href="https://colin-weather-app.netlify.app"><i class="fa fa-laptop"></i></a>
                 </div>
-                <div class="divider"></div>
             </div>
+            <div class="divider"></div>
             <div class="project-info" id="CS180-project5">
                 <h2>CS180 Capstone Project</h2>
                 <p>Built a database driver and concurrent server using Java for a virtual marketplace application. Used SQLite3 and the java SQL library to 
@@ -72,8 +89,8 @@
                     <a target="_blank" href="https://github.com/ColinHermack/Purdue-Buildings-Tier-List"><i class="fa fa-github"></i></a>
                     <a target="_blank" href="https://colinhermack.me/Purdue-Buildings-Tier-List/"><i class="fa fa-laptop"></i></a>
                 </div>
-                <div class="divider"></div>
             </div>
+            <div class="divider"></div>
             <div class="project-info" id="personal-website">
                 <h2>Personal Website</h2>
                 <p>My personal website which showcases my resume and projects.</p>
@@ -108,7 +125,7 @@
                     languageDivs[i].style.color = "rgb(180, 10, 10)"
                 } else if (languageDivs[i].textContent === "SQLite") {
                     languageDivs[i].style.color = "rgb(10, 180, 10)"
-                } else if (languageDivs[i].textContent === "ReactJS") {
+                } else if (['ReactJS', 'NodeJS', 'Express'].includes(languageDivs[i].textContent)) {
                     languageDivs[i].style.color = "rgb(180, 180, 180)";
                 }
             }

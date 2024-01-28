@@ -1,0 +1,70 @@
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#certifications-list {
+    width: 90%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.certification {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 2px solid var(--main-accent-color);
+    animation-name: certification-normal;
+    animation-duration: 0.35s;
+}
+
+.certification:hover {
+    background-color: var(--nav-background-color);
+    animation-name: certification-hover;
+    animation-duration: 0.35s;
+}
+
+@keyframes certification-hover {
+    from {
+        background-color: var(--main-background-color);
+    }
+    to {
+        background-color: var(--nav-background-color);
+    }
+}
+
+@keyframes certification-normal {
+    from {
+        background-color: var(--nav-background-color);
+    }
+    to {
+        background-color: var(--main-background-color);
+    }
+}
+
+.cert-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: end;
+    padding: 15px;
+}
+
+main h1 {
+    margin: 0;
+    
+}
+
+main h2 {
+    margin: 0;
+    margin-left: 25px;
+    font-size: 1em;
+    color: rgb(150, 150, 150);
+}
+
